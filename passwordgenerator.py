@@ -100,7 +100,7 @@ class MainWindow(QMainWindow):
 
 
 # program starts from here...
-print("Welcome to Password Generator")
+
 app = QApplication(argv)
 mainwindow = MainWindow()
 exit(app.exec_())
